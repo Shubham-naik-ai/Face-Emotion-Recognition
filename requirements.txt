@@ -20,18 +20,13 @@ cachetools==5.0.0
 certifi==2020.12.5
 
 comtypes==1.1.9
-conda==4.10.1
-conda-build==3.21.4
-conda-verify==3.4.2
-contextlib2==0.6.0.post1
+
 cycler==0.10.0
 cytoolz==0.11.0
 dnspython==2.2.1
 entrypoints==0.3
-et-xmlfile==1.0.1
-fastcache==1.1.0
-flatbuffers==2.0
-future==0.18.2
+
+
 gast==0.5.3
 gitdb==4.0.9
 GitPython==3.1.27
