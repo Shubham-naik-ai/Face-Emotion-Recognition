@@ -122,7 +122,7 @@ scikit-image==0.18.1
 semver==2.13.0
 simplegeneric==0.8.1
 
-sip==4.19.13
+
 
 smmap==5.0.0
 statsmodels==0.12.2
