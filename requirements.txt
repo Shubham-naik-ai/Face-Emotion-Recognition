@@ -97,7 +97,7 @@ pylibsrtp==0.7.1
 Pympler==1.0.1
 PyMsgBox==1.0.9
 
-pyodbc===4.0.0-unsupported
+
 
 pyperclip==1.8.2
 pyreadline==2.1
