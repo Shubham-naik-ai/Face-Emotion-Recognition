@@ -253,13 +253,13 @@ def main():
     if choice == "Real-Time Snapshot":
         html_temp = """
     <body style="background-color:red;">
-    <div style="background-color:teal ;padding:10px">
+    <div style="background-color:black ;padding:10px">
     <h2 style="color:white;text-align:center;">Face Emotion Recognition WebApp</h2>
     </div>
     </body>
         """
         st.markdown(html_temp, unsafe_allow_html=True)
-        st.title(":angry::dizzy_face::fearful::smile::pensive::open_mouth::neutral_face:")
+        #st.title(":angry::dizzy_face::fearful::smile::pensive::open_mouth::neutral_face:")
         st.write("**Using the Haar cascade Classifiers**")
         st.write("Go to the About section from the sidebar to learn more about it.")
         #st.write("**Instructions while using the APP**")
@@ -283,29 +283,25 @@ def main():
     elif choice =="Home":
         html_temp = """
     <body style="background-color:red;">
-    <div style="background-color:teal ;padding:10px">
+    <div style="background-color:black ;padding:10px">
     <h2 style="color:white;text-align:center;">Face Emotion Recognition WebApp</h2>
     </div>
     </body>
         """
         st.markdown(html_temp, unsafe_allow_html=True)
-        st.title(":angry::dizzy_face::fearful::smile::pensive::open_mouth::neutral_face:")
+        #st.title(":angry::dizzy_face::fearful::smile::pensive::open_mouth::neutral_face:")
         st.write("**Using the Haar cascade Classifiers**")
         st.write("Go to the About section from the sidebar to learn more about it.")
-        st.write("**Instructions while using the APP**")
+        #st.write("**Instructions while using the APP**")
         st.write('''
+		**Instructions while using the APP**
                   
                   1. Click on the Start button to start.
-                 
-                  2. WebCam window will open  automatically. 
-		  
-		          3. It will automatically  predict at that instant.
-                  
-                  4. Make sure that camera shouldn't be used by any other app.
-                  
-                  5. Click on  Stop  to end.
-                
-		          6. Still webcam window didnot open,  go to Check Camera from the sidebar.''')
+		  2. WebCam window will open  automatically.
+		  3. It will automatically  predict at that instant.
+		  4. Make sure that camera shouldn't be used by any other app.
+		  5. Click on  Stop  to end.
+		  6. Still webcam window didnot open,  go to Check Camera from the sidebar.''')
         webrtc_streamer(key="example", video_transformer_factory=VideoTransformer)
         
         
