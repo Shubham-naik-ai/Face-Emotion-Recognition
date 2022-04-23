@@ -310,7 +310,7 @@ def main():
     elif choice == "Check Camera":
         html_temp = """
     <body style="background-color:red;">
-    <div style="background-color:red ;padding:10px">
+    <div style="background-color:black ;padding:10px">
     <h2 style="color:white;text-align:center;">Check Webcam is working or not</h2>
     </div>
     </body>
@@ -318,16 +318,13 @@ def main():
         st.markdown(html_temp, unsafe_allow_html=True)
         st.write("**Instructions while Checking Camrea**")
         st.write('''
+		**Instructions while Checking Camrea**
                   
                   1. Click on  Start  to open webcam.
-                 
-                  2. If you have more than one camera , then select by using select device.
-		  
-		  3. Have some fun with your camera by choosing the options below.
-                  
-                  4. Click on  Stop  to end.
-                  
-                  5. Still webcam window didnot open,  Contact Us.''')
+	2. If you have more than one camera , then select by using select device.
+	3. Have some fun with your camera by choosing the options below.
+	4. Click on  Stop  to end.
+	5. Still webcam window didnot open,  Contact Us.''')
         app_video_filters()
         
         
