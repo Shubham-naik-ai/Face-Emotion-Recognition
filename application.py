@@ -259,24 +259,29 @@ def main():
     </body>
         """
         st.markdown(html_temp, unsafe_allow_html=True)
-        st.title(":angry::dizzy_face::fearful::smile::pensive::open_mouth::neutral_face:")
-        st.write("**Using the Haar cascade Classifiers**")
-        st.write("Go to the About section from the sidebar to learn more about it.")
-        st.write("**Instructions while using the APP**")
+        #st.title(":angry::dizzy_face::fearful::smile::pensive::open_mouth::neutral_face:")
+        #st.write("**Using the Haar cascade Classifiers**")
+        #st.write("Go to the About section from the sidebar to learn more about it.")
+        #st.write("**Instructions while using the APP**")
         st.write('''
+		**Using the Haar cascade Classifiers**
+		
+		Go to the About section from the sidebar to learn more about it.
+		
+		**Instructions while using the APP**
                   
                   1. Click on the Start button to start.
                  
                   2. WebCam window will open  automatically. 
 		  
-		          3. It will automatically throw the image with the prediction at that instant.
+		  3. It will automatically throw the image with the prediction at that instant.
                   
                   4. Make sure that camera shouldn't be used by any other app.
                   
                   5. For live recognition the app is getting slow and takes more time to predict and couldn't predict easily thus fluctuating the result.
 		             Thus Taking a snapshot at any instant of time and it will automatically predict and give the picture with prediction.
 		     
-		          6. Easy to know what was or what is the emotion at a particular time.
+		  6. Easy to know what was or what is the emotion at a particular time.
                   
                   7. Click on  Stop  to end.
                   
