@@ -40,7 +40,7 @@ class VideoTransformer(VideoTransformerBase):
     def transform(self, frame):
         label=[]
         img = frame.to_ndarray(format="bgr24")
-        face_detect = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
+        face_detect = cv2.CascadeClassifier('haarcascade_frontalface_alt.xml')
         emotion_labels = ['Angry','Disgust','Fear','Happy','Neutral', 'Sad', 'Surprise']
         
         
