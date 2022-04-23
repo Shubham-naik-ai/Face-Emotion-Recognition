@@ -363,6 +363,7 @@ def main():
     </body>
         """
         st.markdown(html_temp, unsafe_allow_html=True)
+	st.write("**To Know your emotion proceed to Home from the side bar**")
     elif choice=="Introduction":
          html_temp = """
     <body style="background-color:red;">
@@ -374,7 +375,7 @@ def main():
     </div>
     </body>
         """
-	st.write("**To Know your emotion proceed to Home from the side bar**")
+	
          st.markdown(html_temp, unsafe_allow_html=True)
         
         
