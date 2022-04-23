@@ -344,9 +344,9 @@ def main():
         """
         st.markdown(html_temp, unsafe_allow_html=True)
         about()
-    elif choice=="Contact Us":
+    elif choice=="Contact":
         with st.form(key='my_form'):
-            text_input = st.text_input(label='Enter some text')
+            text_input = st.text_input(label='Enter text')
             submit_button = st.form_submit_button(label='Submit')
         st.write('''
                   Email:- shubhamnaik.2@gmail.com.
@@ -363,7 +363,6 @@ def main():
     </body>
         """
         st.markdown(html_temp, unsafe_allow_html=True)
-	st.write("**To Know your emotion proceed to Home from the side bar**")
     elif choice=="Introduction":
          html_temp = """
     <body style="background-color:red;">
