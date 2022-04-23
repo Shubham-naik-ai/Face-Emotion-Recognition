@@ -8,7 +8,7 @@ from cv2 import cv2
 import numpy as np
 from keras.models import load_model
 from keras.preprocessing.image import img_to_array
-from streamlit_webrtc import VideoTransformerBase, webrtc_streamer
+from streamlit_webrtc import VideoTransformerBase, webrtc_streamer, RTCConfiguration
 import av
 from typing import Union
 
@@ -140,8 +140,8 @@ logger = logging.getLogger(__name__)
 
 
 
-WEBRTC_CLIENT_SETTINGS = ClientSettings(
-    rtc_configuration={"iceServers": [{"urls": ["stun:stun.l.google.com:19302"]}]},
+RTC_CONFIGURATION = RTCConfiguration(
+    {"iceServers": [{"urls": ["stun:stun.l.google.com:19302"]}]},
     media_stream_constraints={"video": True, "audio": True},
 )
 
