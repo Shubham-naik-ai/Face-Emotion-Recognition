@@ -344,7 +344,7 @@ def main():
         """
         st.markdown(html_temp, unsafe_allow_html=True)
         about()
-    elif choice=="Contact":
+    elif choice=="Contact Us":
         with st.form(key='my_form'):
             text_input = st.text_input(label='Enter text')
             submit_button = st.form_submit_button(label='Submit')
