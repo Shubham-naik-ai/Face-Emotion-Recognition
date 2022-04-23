@@ -246,7 +246,7 @@ def app_video_filters():
 
 def main():
     
-    activities = ["Introduction","Home","Real-Time Snapshot", "Check Camera","About","Contact Us"]
+    activities = ["Introduction","Home","Real-Time Snapshot", "Check Camera","About","Contact"]
     choice = st.sidebar.selectbox("Pick something Useful", activities)
     
 
@@ -344,7 +344,7 @@ def main():
         """
         st.markdown(html_temp, unsafe_allow_html=True)
         about()
-    elif choice=="Contact Us":
+    elif choice=="Contact":
         with st.form(key='my_form'):
             text_input = st.text_input(label='Enter text')
             submit_button = st.form_submit_button(label='Submit')
