@@ -297,11 +297,11 @@ def main():
 		**Instructions while using the APP**
                   
                   1. Click on the Start button to start.
-		  2. WebCam window will open  automatically.
-		  3. It will automatically  predict at that instant.
-		  4. Make sure that camera shouldn't be used by any other app.
-		  5. Click on  Stop  to end.
-		  6. Still webcam window didnot open,  go to Check Camera from the sidebar.''')
+	2. WebCam window will open  automatically.
+	3. It will automatically  predict at that instant.
+	4. Make sure that camera shouldn't be used by any other app.
+	5. Click on  Stop  to end.
+	6. Still webcam window didnot open,  go to Check Camera from the sidebar.''')
         webrtc_streamer(key="example", video_transformer_factory=VideoTransformer)
         
         
