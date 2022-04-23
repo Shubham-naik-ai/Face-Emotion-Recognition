@@ -319,7 +319,7 @@ def main():
     elif choice == "Check Camera":
         html_temp = """
     <body style="background-color:red;">
-    <div style="background-color:teal ;padding:10px">
+    <div style="background-color:red ;padding:10px">
     <h2 style="color:white;text-align:center;">Check Webcam is working or not</h2>
     </div>
     </body>
@@ -332,7 +332,7 @@ def main():
                  
                   2. If you have more than one camera , then select by using select device.
 		  
-		          3. Have some fun with your camera by choosing the options below.
+		  3. Have some fun with your camera by choosing the options below.
                   
                   4. Click on  Stop  to end.
                   
