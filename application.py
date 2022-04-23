@@ -30,7 +30,8 @@ try:
     classifier =load_model('Final_model.h5')  #Load model
     emotion_labels = ['Angry','Disgust','Fear','Happy','Neutral', 'Sad', 'Surprise']  # Emotion that will be predicted
 except Exception:
-    st.write("Error loading cascade classifiers1")
+	st.write("Error loading cascade classifiers1")
+    #st.write("Error loading cascade classifiers1")
     
     
 class VideoTransformer(VideoTransformerBase):
