@@ -375,7 +375,7 @@ def main():
     </body>
         """
          st.markdown(html_temp, unsafe_allow_html=True)
-	st.write("**To Know your emotion proceed to Home from the side bar**")
+	 st.write("**To Know your emotion proceed to Home from the side bar**")
         
         
   
