@@ -370,7 +370,7 @@ def main():
         html_temp = """
     <body style="background-color:red;">
     <div style="background-color:black ;padding:0.25px">
-    <h2 style="color:white;text-align:center;">Copyright © 2021 | Shubham Naik </h2>
+    <h2 style="color:white;text-align:center;">Copyright © 2022 | Shubham Naik </h2>
     </div>
     </body>
         """
@@ -378,7 +378,7 @@ def main():
     elif choice=="Introduction":
          html_temp = """
     <body style="background-color:red;">
-    <div style="background-image: url('https://i1.wp.com/thedatascientist.com/wp-content/uploads/2015/12/cool_neural_network.jpeg?fit=1500%2C670&ssl=1');padding:250px">
+    <div style="background-image: url('https://i1.wp.com/thedatascientist.com/wp-content/uploads/2015/12/cool_neural_network.jpeg?fit=1500%2C670&ssl=1');padding:150px">
     <h2 style="color:white;text-align:center;">YOUR EMOTION REFLECTS YOUR PERSONALITY.</h2>
     <h2 style="color:white;text-align:center;">To Know your emotion proceed to Home from the side bar.</h2>
     </div>
