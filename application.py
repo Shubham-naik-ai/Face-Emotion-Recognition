@@ -30,7 +30,7 @@ try:
     
     
 except Exception:
-    st.write("Error loading cascade classifiers")
+    st.write("Error loading cascade classifiers1")
     
     
 class VideoTransformer(VideoTransformerBase):
