@@ -253,7 +253,7 @@ def main():
     if choice == "Real-Time Snapshot":
         html_temp = """
     <body style="background-color:red;">
-    <div style="background-color:orange ;padding:10px">
+    <div style="background-color:black ;padding:10px">
     <h2 style="color:white;text-align:center;">Face Emotion Recognition WebApp</h2>
     </div>
     </body>
@@ -310,7 +310,7 @@ def main():
     elif choice == "Check Camera":
         html_temp = """
     <body style="background-color:red;">
-    <div style="background-color:black ;padding:10px">
+    <div style="background-image: url('https://www.computerweekly.com/visuals/ComputerWeekly/Hero%20Images/network-data-AI-abstract-Oleksii-adobe.jpg') ;padding:10px">
     <h2 style="color:white;text-align:center;">Check Webcam is working or not</h2>
     </div>
     </body>
@@ -337,7 +337,7 @@ def main():
         
         html_temp = """
     <body style="background-color:red;">
-    <div style="background-color:black ;padding:10px">
+    <div style="background-image: url('https://www.computerweekly.com/visuals/ComputerWeekly/Hero%20Images/network-data-AI-abstract-Oleksii-adobe.jpg') ;padding:10px">
     <h2 style="color:white;text-align:center;">Haar Cascade Object Detection</h2>
     </div>
     </body>
@@ -357,7 +357,7 @@ def main():
         
         html_temp = """
     <body style="background-color:red;">
-    <div style="background-color:black ;padding:0.25px">
+    <div style="background-image: url('https://www.computerweekly.com/visuals/ComputerWeekly/Hero%20Images/network-data-AI-abstract-Oleksii-adobe.jpg') ;padding:0.25px">
     <h2 style="color:white;text-align:center;">Copyright © 2022 | Shubham Naik </h2>
     </div>
     </body>
