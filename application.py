@@ -361,16 +361,16 @@ def main():
             text_input = st.text_input(label='Enter some text')
             submit_button = st.form_submit_button(label='Submit')
         st.write('''
-                  Email:- soumya1999rta@gmail.com.
+                  Email:- shubhamnaik.2@gmail.com.
                  
-                  Linkedin:-https://www.linkedin.com/in/soumya-ranjan-mishra-715674180/
+                  Linkedin:-https://www.linkedin.com/in/shubham-naik-b9844514a/
                   
                   ''')
         
         html_temp = """
     <body style="background-color:red;">
-    <div style="background-color:teal ;padding:0.25px">
-    <h2 style="color:white;text-align:center;">Copyright © 2021 | Soumya Ranjan Mishra </h2>
+    <div style="background-color:black ;padding:0.25px">
+    <h2 style="color:white;text-align:center;">Copyright © 2021 | Shubham Naik </h2>
     </div>
     </body>
         """
