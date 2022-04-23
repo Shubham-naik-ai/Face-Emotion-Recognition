@@ -259,13 +259,12 @@ def main():
     </body>
         """
         st.markdown(html_temp, unsafe_allow_html=True)
-        #st.title(":angry::dizzy_face::fearful::smile::pensive::open_mouth::neutral_face:")
-        #st.write("**Using the Haar cascade Classifiers**")
-        #st.write("Go to the About section from the sidebar to learn more about it.")
+        st.title(":angry::dizzy_face::fearful::smile::pensive::open_mouth::neutral_face:")
+        st.write("**Using the Haar cascade Classifiers**")
+        st.write("Go to the About section from the sidebar to learn more about it.")
         #st.write("**Instructions while using the APP**")
         st.write('''
-		**Using the Haar cascade Classifiers** 		
-		Go to the About section from the sidebar to learn more about it.		
+	
 		**Instructions while using the APP**
                   
                 1. Click on the Start button to start.
@@ -284,7 +283,6 @@ def main():
                 7. Click on  Stop  to end.
                   
                 8. Still webcam window didnot open,  go to Check Camera from the sidebar.''')
-	st.write("Go to the About section from the sidebar to learn more about it.")
         
         
         face_detect()
