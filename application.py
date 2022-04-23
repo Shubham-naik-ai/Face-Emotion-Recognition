@@ -264,7 +264,7 @@ def main():
         #st.write("Go to the About section from the sidebar to learn more about it.")
         #st.write("**Instructions while using the APP**")
         st.write('''
-		**Using the Haar cascade Classifiers**
+		**Using the Haar cascade Classifiers** \n Go to the About section from the sidebar to learn more about it.
 		
 		Go to the About section from the sidebar to learn more about it.
 		
