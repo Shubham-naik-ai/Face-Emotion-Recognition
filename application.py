@@ -253,7 +253,7 @@ def main():
     if choice == "Real-Time Snapshot":
         html_temp = """
     <body style="background-color:red;">
-    <div style="background-color:black ;padding:10px">
+    <div style="background-color:orange ;padding:10px">
     <h2 style="color:white;text-align:center;">Face Emotion Recognition WebApp</h2>
     </div>
     </body>
