@@ -90,7 +90,7 @@ def face_detect():
 
             return in_image
 
-    ctx = webrtc_streamer(key="snapshot", video_transformer_factory=VideoTransformer)
+    ctx = webrtc_streamer(key="snapshot", video_processor_factory=VideoTransformer)
 
     while ctx.video_transformer:
         
@@ -302,7 +302,7 @@ def main():
 	4. Make sure that camera shouldn't be used by any other app.
 	5. Click on  Stop  to end.
 	6. Still webcam window didnot open,  go to Check Camera from the sidebar.''')
-        webrtc_streamer(key="example", video_transformer_factory=VideoTransformer)
+        webrtc_streamer(key="example", video_processor_factory=VideoTransformer)
         
         
     
