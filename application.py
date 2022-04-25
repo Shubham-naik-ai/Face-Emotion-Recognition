@@ -227,7 +227,7 @@ def app_video_filters():
     webrtc_ctx = webrtc_streamer(
         key="opencv-filter",
         mode=WebRtcMode.SENDRECV,
-        client_settings=RTC_CONFIGURATION,
+        rtc_configuration=RTC_CONFIGURATION,
         video_processor_factory=OpenCVVideoTransformer,
         async_processing=True,
     )
